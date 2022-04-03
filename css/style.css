@@ -81,3 +81,54 @@ header nav .nav-right .search> div input {
 header nav .nav-right .search> div img{
     padding-right: 15px;
 }
+
+.social div {
+    border: 2px solid var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    animation: moveIn 1s ease-in-out forwards;
+}
+
+@keyframes moveIn{
+    form{
+        transform: translateX(-90px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.social svg path {
+    fill: var(--white);
+}
+
+.social div:hover svg path{
+    fill: var(--dark);
+    transition: all .5s ease-in-out;
+}
+
+.social div:hover{
+    background: var(--white);
+}
+
+.front {
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-right: 1px solid var(--gray);
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
