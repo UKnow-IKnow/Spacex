@@ -91,12 +91,12 @@ header nav .nav-right .search> div img{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    animation: moveIn 1s ease-in-out forwards;
+    
 }
 
 @keyframes moveIn{
     form{
-        transform: translateX(-90px);
+        transform: translateX(-100px);
     }
     to{
         transform: translateX(0px);
@@ -125,7 +125,7 @@ header nav .nav-right .search> div img{
     left: 0;
     top: 0;
     border-right: 1px solid var(--gray);
-    width: 85px;
+    width: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
