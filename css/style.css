@@ -91,7 +91,6 @@ header nav .nav-right .search> div img{
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    
 }
 
 @keyframes moveIn{
@@ -132,3 +131,29 @@ header nav .nav-right .search> div img{
     flex-direction: column;
     min-height: 90vh;
 }
+
+.front .cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 80px); 
+}
+
+.front .cta h1 {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.front .cta button {
+    margin-left: 20px;
+}
+
+.front .cta > div {
+    flex: 1;
+}
+
+.front .cta .le
