@@ -3,3 +3,24 @@
     max-width: 90%;
     margin: 0 auto;
 }
+
+.btn{
+    padding: 8px 30px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary{
+    columns: var(--dark);
+    background: var(--white);
+    transition: all .5s ease-in-out;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
