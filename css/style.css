@@ -142,18 +142,29 @@ header nav .nav-right .search> div img{
 .front .cta h1 {
     color: var(--white);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.7;
     margin-bottom: 30px;
-    margin-left: 20px;
 }
 
-.front .cta button {
-    margin-left: 20px;
-}
+
 
 .front .cta > div {
     flex: 1;
 }
 
-.front .cta .le
+.front .cta .left-section{
+    padding: 0 60px 0 70px;
+}
+
+.front .cta .right-section img{
+    height: 68vh;
+    transform: rotate(20deg);
+    animation: moveInSpace 12s ease-in-out infinite alternate;
+}
+
+@keyframes moveInSpace {
+    50%{
+        transform: translateY(100px) rotate(-30deg) scale(0.8);
+    }
+}
