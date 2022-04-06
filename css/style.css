@@ -168,3 +168,15 @@ header nav .nav-right .search> div img{
         transform: translateY(100px) rotate(-30deg) scale(0.8);
     }
 }
+
+section.strip{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--dark);
+    padding: 35px;
+}
+
+.strip h3{
+    color: var(--white);
+}
