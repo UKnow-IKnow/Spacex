@@ -11,16 +11,27 @@
     outline: none;
     cursor: pointer;
     font-size: 14px;
+    transition: all .5s ease-in-out;
 }
 
 .btn-primary{
     columns: var(--dark);
     background: var(--white);
-    transition: all .5s ease-in-out;
 }
 
 .btn-primary:hover{
     background: transparent;
     color: var(--white);
     border-color: var(--white);
+}
+
+.btn-secondary{
+    background: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-secondary:hover{
+    background: var(--white);
+    color: var(--dark);
 }
