@@ -287,3 +287,15 @@ section.rocket .block.capacity h6 {
 section.rocket .block.capacity h6 small {
     font-size: 12px;
 }
+
+section.rocket .block.second{
+    padding-top: 60px;
+}
+
+section.rocket .right-block .block.capacity {
+    padding-top: 120px;
+}
+
+section.rocket .right-block .block.capacity.single  {
+    padding-top: 40px;
+}
