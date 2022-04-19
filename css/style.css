@@ -263,3 +263,27 @@ section.rocket .block.first{
     padding-top: 60px;
 }
 
+section.rocket .block.capacity {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+section.rocket .block.capacity > div:first-child{
+    margin-right: 40px;
+}
+
+section.rocket .block.capacity h4 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+section.rocket .block.capacity h6 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+section.rocket .block.capacity h6 small {
+    font-size: 12px;
+}
