@@ -336,7 +336,7 @@ section.rocket .rocket-body span:after, section.rocket .rocket-body span:nth-chi
     content: '';
     display: block;
     position: absolute;
-    width: 200px;
+    width: 0;
     height: 2px;
     background: var(--white);
 }
@@ -361,18 +361,18 @@ section.rocket .rocket-body span:nth-child(3):before {
     left: 90%;
 }
 
-section.rocket .rocket-body span:nth-child(1):after{
+section.rocket .rocket-body span.active:nth-child(1):after{
     width: 120px;
 }
 
-section.rocket .rocket-body span:nth-child(2):after{
+section.rocket .rocket-body span.active:nth-child(2):after{
     width: 180px;
 }
 
-section.rocket .rocket-body span:nth-child(3):after{
+section.rocket .rocket-body span.active:nth-child(3):after{
     width: 200px;
 }
 
-section.rocket .rocket-body span:nth-child(3):before{
+section.rocket .rocket-body span.active:nth-child(3):before{
     width: 160px;
 }
