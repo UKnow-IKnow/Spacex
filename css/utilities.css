@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-.btn{
+.btn {
     padding: 8px 30px;
     border: 1px solid transparent;
     border-radius: 50px;
@@ -14,24 +14,24 @@
     transition: all .5s ease-in-out;
 }
 
-.btn-primary{
+.btn-primary {
     columns: var(--dark);
     background: var(--white);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: transparent;
     color: var(--white);
     border-color: var(--white);
 }
 
-.btn-secondary{
+.btn-secondary {
     background: transparent;
     color: var(--white);
     border-color: var(--white);
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background: var(--white);
     color: var(--dark);
 }
