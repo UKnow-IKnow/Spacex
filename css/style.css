@@ -195,6 +195,7 @@ section.rocket .rocket-body {
 
 section.rocket .rocket-body span {
     font-size: 0;
+    position: relative;
 }
 
 section.rocket .rocket-body span img {
@@ -247,19 +248,19 @@ section.rocket .block.payload h2 {
     padding-left: 80px;
 }
 
-section.rocket .block.Dragon{
+section.rocket .block.Dragon {
     padding-top: 120px;
 }
 
-section.rocket .block button{
+section.rocket .block button {
     margin-top: 30px;
 }
 
-section.rocket .block.Composite{
+section.rocket .block.Composite {
     padding-top: 60px;
 }
 
-section.rocket .block.first{
+section.rocket .block.first {
     padding-top: 60px;
 }
 
@@ -269,7 +270,7 @@ section.rocket .block.capacity {
     padding-top: 50px;
 }
 
-section.rocket .block.capacity > div:first-child{
+section.rocket .block.capacity>div:first-child {
     margin-right: 40px;
 }
 
@@ -288,7 +289,7 @@ section.rocket .block.capacity h6 small {
     font-size: 12px;
 }
 
-section.rocket .block.second{
+section.rocket .block.second {
     padding-top: 60px;
 }
 
@@ -296,7 +297,7 @@ section.rocket .right-block .block.capacity {
     padding-top: 120px;
 }
 
-section.rocket .right-block .block.capacity.single  {
+section.rocket .right-block .block.capacity.single {
     padding-top: 40px;
 }
 
@@ -331,11 +332,47 @@ section.rocket .right-block .floating-graphics img {
     height: 320px;
 }
 
-section.rocket .rocket-body span:after {
+section.rocket .rocket-body span:after, section.rocket .rocket-body span:nth-child(3):before{
     content: '';
     display: block;
     position: absolute;
     width: 200px;
     height: 2px;
     background: var(--white);
+}
+
+section.rocket .rocket-body span:nth-child(1):after {
+    bottom: 16px;
+    left: 96%;
+}
+
+section.rocket .rocket-body span:nth-child(2):after {
+    bottom: 62%;
+    right: 100%;
+}
+
+section.rocket .rocket-body span:nth-child(3):after {
+    bottom: 64%;
+    right: 90%;
+}
+
+section.rocket .rocket-body span:nth-child(3):before {
+    bottom: 36%;
+    left: 90%;
+}
+
+section.rocket .rocket-body span:nth-child(1):after{
+    width: 120px;
+}
+
+section.rocket .rocket-body span:nth-child(2):after{
+    width: 180px;
+}
+
+section.rocket .rocket-body span:nth-child(3):after{
+    width: 200px;
+}
+
+section.rocket .rocket-body span:nth-child(3):before{
+    width: 160px;
 }
