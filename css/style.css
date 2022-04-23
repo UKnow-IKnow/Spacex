@@ -331,3 +331,11 @@ section.rocket .right-block .floating-graphics img {
     height: 320px;
 }
 
+section.rocket .rocket-body span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background: var(--white);
+}
